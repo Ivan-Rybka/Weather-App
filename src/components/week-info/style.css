@@ -1,0 +1,16 @@
+.weekItem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 280px;
+}
+
+.weekItem h4 {
+    font-size: 20px;
+}
+
+.weekItem img {
+    width: 100px;
+    margin: 0 auto;
+}

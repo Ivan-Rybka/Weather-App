@@ -1,0 +1,29 @@
+#citiesPromo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+}
+
+.cityPromo {
+    width: 250px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.cityPromo h3 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cityPromo img {
+    width: 120px;
+    border-radius: 10px;
+    opacity: 0.6
+}
+
+.cityPromo:hover > img {
+    opacity: 1;
+}
